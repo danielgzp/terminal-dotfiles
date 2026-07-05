@@ -1,0 +1,11 @@
+font-family = "MesloLGS NF"
+command = /usr/bin/zsh
+
+# Pestañas horizontales (Ghostty no soporta 'left', solo 'top' o 'bottom')
+gtk-tabs-location = bottom
+
+# Evitar que las pestañas ocupen todo el ancho/alto
+gtk-wide-tabs = false
+
+# Eliminar la barra doble de titulo superior
+gtk-titlebar = true
