@@ -150,4 +150,13 @@ alias config-ghostty="nano ~/.config/ghostty/config"
 alias antigravity-ide="antigravity-ide --no-sandbox"
 alias agy-ide="antigravity-ide"
 
+alias pn="pnpm"
 
+
+
+# fnm
+FNM_PATH="/home/danieldev/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="$FNM_PATH:$PATH"
+  eval "$(fnm env --shell zsh)"
+fi
